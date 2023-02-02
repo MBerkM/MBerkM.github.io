@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+  }
+
+body{
+    font-family: Georgia, serif;
+	font-size: 16px;
+	line-height: 1.6em;
+    margin: 0;
+    position: center;
+    background-image: url(https://media.tenor.com/5sglUOGwcfYAAAAC/batman-thinking.gif); /* responsive olması için  body'de*/
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#main-header{
+    color: rgb(148, 255, 193);
+    font-size:40px;
+    line-height: 2em;
+    padding-top: 10%;
+    text-align: center;
+    display: block;
+}
+
+#result-header{
+    color: #eff;
+    font-size: 150px;
+    line-height: 1em;
+    text-align: center;
+    visibility: hidden;
+}
+
+
+input[type=text]{
+    width: 40%;
+    padding: 12px 20px; 
+    margin: 20px 30%;
+    border: 5px solid coral;
+    border-radius: 10px;
+  }
